@@ -1,1 +1,8 @@
 # DataAnalytics-Assessment
+## Project Summary
+
+This repository presents my solutions to a SQL Proficiency Assessment designed to evaluate real-world data analytics skills using relational databases. Drawing from my background as a data analyst, I approached each question with a focus on translating business requirements into accurate, efficient, and readable SQL queries. The dataset spans four key tables—`users_customuser`, `savings_savingsaccount`, `plans_plan`, and `withdrawals_withdrawal`—covering customer information, savings/investment plans, and transactional records.
+
+Each query addresses a specific business challenge, including identifying high-value customers with both savings and investment plans, segmenting users by transaction frequency, flagging inactive accounts with no inflows in over a year, and estimating Customer Lifetime Value (CLV) using account tenure and transaction volume. I implemented the solutions using **MySQL**, leveraging its date functions, conditional logic, and aggregation capabilities. Monetary values stored in **kobo** were consistently converted to **naira**, and edge cases—such as null transactions or short tenures—were carefully handled.
+
+This project reflects my practical experience with SQL and demonstrates how I apply analytical thinking to solve business problems using data. All queries are clearly structured, commented, and aligned with best practices for maintainability and readability. I've documented my methodology and challenges encountered in the README to offer a transparent view of my approach. The use of **MySQL** as my query engine further showcases my ability to work within real-world database environments to drive insights and inform decisions.
